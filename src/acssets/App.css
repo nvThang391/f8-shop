@@ -1,0 +1,142 @@
+/* all */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+/*app  */
+.app-shop{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*login  */
+.login-shop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(193, 206, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    border-radius: 6px;
+}
+.input-email{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border:1px solid rgb(213, 213, 213);
+}
+
+.btn-login{
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(44, 44, 194);
+}
+/* homepage */
+.home-shop{
+    width: 90%;
+    background-color: rgb(184, 139, 139);
+    padding: 20px 50px;
+}
+/* list-products */
+.list-products{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    grid-auto-rows: 400px;
+    padding: 20px 0;
+}
+/* item-product */
+.item-product{
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+}
+.name-item{
+    font-size: 26px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.add-to-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 22px;
+    font-weight: 800;
+    color: orange;
+}
+.btn-AddtoCard,.btn-pay{
+    background-color: green;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+td,th,table{
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-collapse: collapse;
+    text-align: left;
+}
+td,th{
+padding: 10px 12px;
+}
+thead{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+td{
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+.name-item-cart{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-pay{
+    margin-top: 10px;
+}
+.notice{
+    text-align: center;
+    color: rgb(156, 14, 14);
+}
